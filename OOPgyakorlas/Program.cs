@@ -1,4 +1,6 @@
-﻿namespace OOPgyakorlas
+﻿using OOpGyakorlás;
+
+namespace OOPgyakorlas
 {
 	internal class Program
 	{
@@ -37,9 +39,19 @@
             Console.WriteLine(film2.ToString());
             Console.WriteLine("");
 			film2.MufajModositas("Kultuszfilm"); //Itt módosítottam a műfajaát
-			Console.WriteLine(film2.ToString());	
+			Console.WriteLine(film2.ToString());
+
+			Console.WriteLine("");
+			Console.WriteLine("--------------------------------------------------------------------------------------------------------------------");
+			Console.WriteLine("");
 
 
+
+			Videojatek jatek1 = new("SuperMario", 100);
+            Console.WriteLine(jatek1);
+
+			Videojatek jatek2 = new("Franklin", 200, 100, 50);
+			Console.WriteLine(jatek2);
         }
 	}
 }
