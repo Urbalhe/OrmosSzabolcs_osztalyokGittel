@@ -52,6 +52,16 @@ namespace OOPgyakorlas
 
 			Videojatek jatek2 = new("Franklin", 200, 100, 50);
 			Console.WriteLine(jatek2);
-        }
+
+			Console.WriteLine("");
+			Console.WriteLine("--------------------------------------------------------------------------------------------------------------------");
+			Console.WriteLine("");
+
+			Urhajo urhajo1 = new("MilleniumFalcon", 100, 100, 100);
+
+
+		}
+
+
 	}
 }
