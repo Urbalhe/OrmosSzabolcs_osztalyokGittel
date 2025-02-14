@@ -58,9 +58,18 @@ namespace OOPgyakorlas
 			Console.WriteLine("");
 
 			Urhajo urhajo1 = new("MilleniumFalcon", 100, 100, 100);
+            Console.WriteLine(urhajo1);
 
 
-		}
+            Console.WriteLine("");
+			Console.WriteLine("--------------------------------------------------------------------------------------------------------------------");
+			Console.WriteLine("");
+
+			Kem kem1 = new("007JamesBond", "NagyBrittania", 10, 80);
+            Console.WriteLine(kem1);
+
+
+        }
 
 
 	}
